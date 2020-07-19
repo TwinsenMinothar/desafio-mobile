@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+
+
+<ion-card *ngIf="post">
+  <ion-card-header>
+    <ion-card-title> {{ post.title }} </ion-card-title>
+     </ion-card-header>
+  <ion-card-content>{{ post.body }}</ion-card-content>
+</ion-card>
+  </ion-toolbar>
+</ion-header>
