@@ -1,5 +1,7 @@
 {
   "name": "DreamLabs",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
